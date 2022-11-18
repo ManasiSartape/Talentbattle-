@@ -1,0 +1,16 @@
+//Write a program to find ASCII values of a character
+
+
+import java.util.*;
+public class Main
+{
+public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+char ch=sc.next().charAt(0);
+int ASKII_value=ch;
+System.out.println("The ASKII value of first char is: "+ASKII_value);
+char ch1=sc.next().charAt(0);
+int ASKII_value1=ch1;
+System.out.println("The ASKII value of second char is: "+ASKII_value1);
+}
+}
